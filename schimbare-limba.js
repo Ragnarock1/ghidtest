@@ -48,28 +48,28 @@ document.addEventListener('DOMContentLoaded', ()=>{
     if(lb == 'ro'){
 
         switch (id_a){
-            case '1':
+            case '1-ro':
             
                 document.querySelector('iframe').src = ModelIH.srcRO;
                 document.querySelector('h3').textContent = ModelIH.name;
                 document.querySelector('ul#descr').innerHTML = ModelIH.desc;
                 break;
 
-            case '2':
+            case '2-ro':
                  
                 document.querySelector('iframe').src = ModelRP.srcRO;
                 document.querySelector('h3').textContent = ModelRP.name;
                 document.querySelector('ul#descr').innerHTML = ModelRP.desc;
                 
                 break;
-            case '3':
+            case '3-ro':
 
                 document.querySelector('iframe').src = ModelWS.srcRO;
                 document.querySelector('h3').textContent = ModelWS.name;
                 document.querySelector('ul#descr').innerHTML = ModelWS.desc;
                 
                  break;
-            case '4':
+            case '4-ro':
 
                 document.querySelector('iframe').src = ModelAE.srcRO;
                 document.querySelector('h3').textContent = ModelAE.name;
@@ -84,28 +84,28 @@ document.addEventListener('DOMContentLoaded', ()=>{
     else if(lb == 'en'){
         
         switch (id_a){
-            case '1':
+            case '1-en':
                 
                 document.querySelector('iframe').src = ModelIH.srcEN;
                 document.querySelector('h3').textContent = ModelIH.name;
                 document.querySelector('ul#descr').innerHTML = ModelIH.desc;
                 
                 break;
-            case '2':
+            case '2-en':
 
                 document.querySelector('iframe').src = ModelRP.srcEN;
                 document.querySelector('h3').textContent = ModelRP.name;
                 document.querySelector('ul#descr').innerHTML = ModelRP.desc;
                 
                 break;
-            case '3':
+            case '3-en':
 
                 document.querySelector('iframe').src = ModelWS.srcEN;
                 document.querySelector('h3').textContent = ModelWS.name;
                 document.querySelector('ul#descr').innerHTML = ModelWS.desc;
                 
                 break;
-            case '4':
+            case '4-en':
 
                 document.querySelector('iframe').src = ModelAE.srcEN;
                 document.querySelector('h3').textContent = ModelAE.name;
